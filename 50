@@ -1,0 +1,8 @@
+## write a number is greater than 50 or not
+#if n>50 print hi or print bye
+
+n=int(input("enter a number"))
+if(n>50):
+    print("hi")
+else:
+    print("bye")
