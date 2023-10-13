@@ -1,0 +1,33 @@
+print("* welcome to smart***")
+punjabidress=500
+casualtop=200
+westrentop=400
+legging=150
+chunni=90
+scarfs=150
+npd=int(input("enter no of punjabi dress"))
+nct=int(input(" enter no of casualtops"))
+nwt=int(input("enter no of westrentops"))
+nl=int(input("enter no of leggings"))
+nc=int(input("enter no of chunnis"))
+ns=int(input("enter no. of scarfs"))
+bill=(npd*punjabidress)+(nct*casualtop)+(nwt*westrentop)+(nl*legging)+(nc*chunni)+(ns*scarfs)
+if bill>=9000:
+    disc=bill*90/100
+elif bill>=8000:   
+    disc=bill*80/100
+elif bill>=7000:
+    disc=bill*70/100
+elif bill>=5000:
+    disc=bill*5/100
+elif bill>=4000:
+    disc=bill*40/100
+elif bill>=2000:
+     disc=bill*20/100
+else:
+    print("no disc")               
+price=bill-disc
+gst=price*12/100
+amt=price+gst   
+print("bill to be paid", amt)
+print("thank you! visit again")
